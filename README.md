@@ -25,7 +25,7 @@
 
 The default margin classes are:
 
-    .m-none
+    .m-0
     .m-0-auto
 
     .m-t
@@ -35,7 +35,7 @@ The default margin classes are:
     .m-r
     .m-l-r
 
-For all classes except "none" and "0-auto" you can add the size at the end:
+For all classes except "0" and "0-auto" you can add the size at the end:
 
     .m-t-xs
     .m-b-xs
@@ -50,7 +50,7 @@ For all classes except "none" and "0-auto" you can add the size at the end:
 
 You can add the size of the screen after the "m" in the class name. This will take effect for all screens smaller than this.
 
-    .m-md-none
+    .m-md-0
     .m-md-0-auto
     .m-md-t
     .m-md-t-b-xl

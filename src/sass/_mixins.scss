@@ -8,7 +8,7 @@
   }
 
   @if $size == '' {
-    .m#{$screen}-none {
+    .m#{$screen}-0 {
       margin: 0;
     }
 
@@ -16,28 +16,28 @@
       margin: 0 auto;
     }
 
-    .m#{$screen}-t-none {
+    .m#{$screen}-t-0 {
       margin-top: 0;
     }
 
-    .m#{$screen}-b-none {
+    .m#{$screen}-b-0 {
       margin-bottom: 0;
     }
 
-    .m#{$screen}-t-b-none {
+    .m#{$screen}-t-b-0 {
       margin-top: 0;
       margin-bottom: 0;
     }
 
-    .m#{$screen}-r-none {
+    .m#{$screen}-r-0 {
       margin-right: 0;
     }
 
-    .m#{$screen}-l-none {
+    .m#{$screen}-l-0 {
       margin-left: 0;
     }
 
-    .m#{$screen}-r-l-none {
+    .m#{$screen}-r-l-0 {
       margin-right: 0;
       margin-left: 0;
     }
@@ -80,32 +80,32 @@
   }
 
   @if $size == '' {
-    .p#{$screen}-none {
+    .p#{$screen}-0 {
       padding: 0;
     }
 
-    .p#{$screen}-t-none {
+    .p#{$screen}-t-0 {
       padding-top: 0;
     }
 
-    .p#{$screen}-b-none {
+    .p#{$screen}-b-0 {
       padding-bottom: 0;
     }
 
-    .p#{$screen}-t-b-none {
+    .p#{$screen}-t-b-0 {
       padding-top: 0;
       padding-bottom: 0;
     }
 
-    .p#{$screen}-r-none {
+    .p#{$screen}-r-0 {
       padding-right: 0;
     }
 
-    .p#{$screen}-l-none {
+    .p#{$screen}-l-0 {
       padding-left: 0;
     }
 
-    .p#{$screen}-r-l-none {
+    .p#{$screen}-r-l-0 {
       padding-right: 0;
       padding-left: 0;
     }

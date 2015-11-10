@@ -4,7 +4,7 @@
 * Copyright (c) 2015 - Michael Wohlfahrter 
 */ 
 
-.m-none {
+.m-0 {
   margin: 0;
 }
 
@@ -12,28 +12,28 @@
   margin: 0 auto;
 }
 
-.m-t-none {
+.m-t-0 {
   margin-top: 0;
 }
 
-.m-b-none {
+.m-b-0 {
   margin-bottom: 0;
 }
 
-.m-t-b-none {
+.m-t-b-0 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.m-r-none {
+.m-r-0 {
   margin-right: 0;
 }
 
-.m-l-none {
+.m-l-0 {
   margin-left: 0;
 }
 
-.m-r-l-none {
+.m-r-l-0 {
   margin-right: 0;
   margin-left: 0;
 }
@@ -169,7 +169,7 @@
 }
 
 @media (max-width: 1199px) {
-  .m-md-none {
+  .m-md-0 {
     margin: 0;
   }
 
@@ -177,28 +177,28 @@
     margin: 0 auto;
   }
 
-  .m-md-t-none {
+  .m-md-t-0 {
     margin-top: 0;
   }
 
-  .m-md-b-none {
+  .m-md-b-0 {
     margin-bottom: 0;
   }
 
-  .m-md-t-b-none {
+  .m-md-t-b-0 {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .m-md-r-none {
+  .m-md-r-0 {
     margin-right: 0;
   }
 
-  .m-md-l-none {
+  .m-md-l-0 {
     margin-left: 0;
   }
 
-  .m-md-r-l-none {
+  .m-md-r-l-0 {
     margin-right: 0;
     margin-left: 0;
   }
@@ -334,7 +334,7 @@
   }
 }
 @media (max-width: 991px) {
-  .m-sm-none {
+  .m-sm-0 {
     margin: 0;
   }
 
@@ -342,28 +342,28 @@
     margin: 0 auto;
   }
 
-  .m-sm-t-none {
+  .m-sm-t-0 {
     margin-top: 0;
   }
 
-  .m-sm-b-none {
+  .m-sm-b-0 {
     margin-bottom: 0;
   }
 
-  .m-sm-t-b-none {
+  .m-sm-t-b-0 {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .m-sm-r-none {
+  .m-sm-r-0 {
     margin-right: 0;
   }
 
-  .m-sm-l-none {
+  .m-sm-l-0 {
     margin-left: 0;
   }
 
-  .m-sm-r-l-none {
+  .m-sm-r-l-0 {
     margin-right: 0;
     margin-left: 0;
   }
@@ -499,7 +499,7 @@
   }
 }
 @media (max-width: 767px) {
-  .m-xs-none {
+  .m-xs-0 {
     margin: 0;
   }
 
@@ -507,28 +507,28 @@
     margin: 0 auto;
   }
 
-  .m-xs-t-none {
+  .m-xs-t-0 {
     margin-top: 0;
   }
 
-  .m-xs-b-none {
+  .m-xs-b-0 {
     margin-bottom: 0;
   }
 
-  .m-xs-t-b-none {
+  .m-xs-t-b-0 {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .m-xs-r-none {
+  .m-xs-r-0 {
     margin-right: 0;
   }
 
-  .m-xs-l-none {
+  .m-xs-l-0 {
     margin-left: 0;
   }
 
-  .m-xs-r-l-none {
+  .m-xs-r-l-0 {
     margin-right: 0;
     margin-left: 0;
   }
@@ -663,32 +663,32 @@
     margin-left: 60px;
   }
 }
-.p-none {
+.p-0 {
   padding: 0;
 }
 
-.p-t-none {
+.p-t-0 {
   padding-top: 0;
 }
 
-.p-b-none {
+.p-b-0 {
   padding-bottom: 0;
 }
 
-.p-t-b-none {
+.p-t-b-0 {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.p-r-none {
+.p-r-0 {
   padding-right: 0;
 }
 
-.p-l-none {
+.p-l-0 {
   padding-left: 0;
 }
 
-.p-r-l-none {
+.p-r-l-0 {
   padding-right: 0;
   padding-left: 0;
 }
@@ -824,32 +824,32 @@
 }
 
 @media (max-width: 1199px) {
-  .p-md-none {
+  .p-md-0 {
     padding: 0;
   }
 
-  .p-md-t-none {
+  .p-md-t-0 {
     padding-top: 0;
   }
 
-  .p-md-b-none {
+  .p-md-b-0 {
     padding-bottom: 0;
   }
 
-  .p-md-t-b-none {
+  .p-md-t-b-0 {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .p-md-r-none {
+  .p-md-r-0 {
     padding-right: 0;
   }
 
-  .p-md-l-none {
+  .p-md-l-0 {
     padding-left: 0;
   }
 
-  .p-md-r-l-none {
+  .p-md-r-l-0 {
     padding-right: 0;
     padding-left: 0;
   }
@@ -985,32 +985,32 @@
   }
 }
 @media (max-width: 991px) {
-  .p-sm-none {
+  .p-sm-0 {
     padding: 0;
   }
 
-  .p-sm-t-none {
+  .p-sm-t-0 {
     padding-top: 0;
   }
 
-  .p-sm-b-none {
+  .p-sm-b-0 {
     padding-bottom: 0;
   }
 
-  .p-sm-t-b-none {
+  .p-sm-t-b-0 {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .p-sm-r-none {
+  .p-sm-r-0 {
     padding-right: 0;
   }
 
-  .p-sm-l-none {
+  .p-sm-l-0 {
     padding-left: 0;
   }
 
-  .p-sm-r-l-none {
+  .p-sm-r-l-0 {
     padding-right: 0;
     padding-left: 0;
   }
@@ -1146,32 +1146,32 @@
   }
 }
 @media (max-width: 767px) {
-  .p-xs-none {
+  .p-xs-0 {
     padding: 0;
   }
 
-  .p-xs-t-none {
+  .p-xs-t-0 {
     padding-top: 0;
   }
 
-  .p-xs-b-none {
+  .p-xs-b-0 {
     padding-bottom: 0;
   }
 
-  .p-xs-t-b-none {
+  .p-xs-t-b-0 {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .p-xs-r-none {
+  .p-xs-r-0 {
     padding-right: 0;
   }
 
-  .p-xs-l-none {
+  .p-xs-l-0 {
     padding-left: 0;
   }
 
-  .p-xs-r-l-none {
+  .p-xs-r-l-0 {
     padding-right: 0;
     padding-left: 0;
   }

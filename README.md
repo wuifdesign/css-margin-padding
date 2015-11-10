@@ -1,27 +1,27 @@
-## Margin and Padding Classes for CSS ##
+## Margin and Padding Classes for CSS
 
-Screen Sizes:
+##### Screen Sizes:
 - xs: <768px
 - sm: <992px
 - md: <1200px
 
-Margin Sizes:
+##### Margin Sizes:
 - xs: 4px
 - sm: 8px
 - default: 15px
 - lg: 30px
 - xl: 60px
 
-Padding Sizes:
+##### Padding Sizes:
 - xs: 4px
 - sm: 8px
 - default: 15px
 - lg: 30px
 - xl: 60px
 
-## Maring Classes ##
+### Maring Classes
 
-## Usage ##
+#### Usage
 
 The default margin classes are:
 
@@ -44,9 +44,9 @@ For all classes except "none" and "0-auto" you can add the size at the end:
     .m-r-xs
     .m-l-r-xs
 
-*Available sizes are: xs, sm, lg, xl*
+**Available sizes are: xs, sm, lg, xl**
 
-# Responsive #
+#### Responsive
 
 You can add the size of the screen after the "m" in the class name. This will take effect for all screens smaller than this.
 
@@ -56,9 +56,9 @@ You can add the size of the screen after the "m" in the class name. This will ta
     .m-md-t-b-xl
     ...
 
-## Padding Classes ##
+### Padding Classes
 
-## Usage ##
+#### Usage
 
 The default padding classes are:
 
@@ -80,9 +80,9 @@ For all classes except "none" you can add the size at the end:
     .p-r-xs
     .p-l-r-xs
 
-*Available sizes are: xs, sm, lg, xl*
+**Available sizes are: xs, sm, lg, xl**
 
-# Responsive #
+#### Responsive
 
 You can add the size of the screen after the "p" in the class name. This will take effect for all screens smaller than this.
 

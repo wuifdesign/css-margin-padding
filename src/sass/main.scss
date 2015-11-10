@@ -1,0 +1,27 @@
+$screen-sm:     768px !default;
+$screen-md:     992px !default;
+$screen-lg:     1200px !default;
+
+$screen-xs-max: ($screen-sm - 1) !default;
+$screen-sm-max: ($screen-md - 1) !default;
+$screen-md-max: ($screen-lg - 1) !default;
+
+$default-margin: 15px !default;
+$margin-types: (
+  xs round($default-margin / 4),
+  sm round($default-margin / 2),
+  lg round($default-margin * 2),
+  xl round($default-margin * 4)
+) !default;
+
+$default-padding: 15px !default;
+$padding-types: (
+  xs round($default-padding / 4),
+  sm round($default-padding / 2),
+  lg round($default-padding * 2),
+  xl round($default-padding * 4)
+) !default;
+
+@import "mixins";
+@import "margin";
+@import "padding";

@@ -1,0 +1,29 @@
+@include paddings();
+
+@each $types in $margin-types {
+  @include paddings(nth($types, 1), nth($types, 2));
+}
+
+@media (max-width: $screen-md-max) {
+  @include paddings('', $default-padding, 'md');
+
+  @each $types in $margin-types {
+    @include paddings(nth($types, 1), nth($types, 2), 'md');
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  @include paddings('', $default-padding, 'sm');
+
+  @each $types in $margin-types {
+    @include paddings(nth($types, 1), nth($types, 2), 'sm');
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  @include paddings('', $default-padding, 'xs');
+
+  @each $types in $margin-types {
+    @include paddings(nth($types, 1), nth($types, 2), 'xs');
+  }
+}

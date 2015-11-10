@@ -1,0 +1,139 @@
+@mixin margins($size: '', $value: $default-margin, $screen: '') {
+  @if $size != '' {
+    $size: '-' + $size;
+  }
+
+  @if $screen != '' {
+    $screen: '-' + $screen;
+  }
+
+  @if $size == '' {
+    .m#{$screen}-none {
+      margin: 0;
+    }
+
+    .m#{$screen}-0-auto {
+      margin: 0 auto;
+    }
+
+    .m#{$screen}-t-none {
+      margin-top: 0;
+    }
+
+    .m#{$screen}-b-none {
+      margin-bottom: 0;
+    }
+
+    .m#{$screen}-t-b-none {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .m#{$screen}-r-none {
+      margin-right: 0;
+    }
+
+    .m#{$screen}-l-none {
+      margin-left: 0;
+    }
+
+    .m#{$screen}-r-l-none {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+
+  .m#{$screen}-t#{$size} {
+    margin-top: $value;
+  }
+
+  .m#{$screen}-b#{$size} {
+    margin-bottom: $value;
+  }
+
+  .m#{$screen}-t-b#{$size} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+  .m#{$screen}-r#{$size} {
+    margin-right: $value;
+  }
+
+  .m#{$screen}-l#{$size} {
+    margin-left: $value;
+  }
+
+  .m#{$screen}-r-l#{$size} {
+    margin-right: $value;
+    margin-left: $value;
+  }
+}
+
+@mixin paddings($size: '', $value: $default-padding, $screen: '') {
+  @if $size != '' {
+    $size: '-' + $size;
+  }
+
+  @if $screen != '' {
+    $screen: '-' + $screen;
+  }
+
+  @if $size == '' {
+    .p#{$screen}-none {
+      padding: 0;
+    }
+
+    .p#{$screen}-t-none {
+      padding-top: 0;
+    }
+
+    .p#{$screen}-b-none {
+      padding-bottom: 0;
+    }
+
+    .p#{$screen}-t-b-none {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .p#{$screen}-r-none {
+      padding-right: 0;
+    }
+
+    .p#{$screen}-l-none {
+      padding-left: 0;
+    }
+
+    .p#{$screen}-r-l-none {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  .p#{$screen}-t#{$size} {
+    padding-top: $value;
+  }
+
+  .p#{$screen}-b#{$size} {
+    padding-bottom: $value;
+  }
+
+  .p#{$screen}-t-b#{$size} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+
+  .p#{$screen}-r#{$size} {
+    padding-right: $value;
+  }
+
+  .p#{$screen}-l#{$size} {
+    padding-left: $value;
+  }
+
+  .p#{$screen}-r-l#{$size} {
+    padding-right: $value;
+    padding-left: $value;
+  }
+}

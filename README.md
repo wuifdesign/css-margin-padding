@@ -25,15 +25,16 @@
 
 The default margin classes are:
 
-    .m-0
-    .m-0-auto
+    .m-0 (none)
+    .m-0-auto (0 auto)
 
-    .m-t
-    .m-b
-    .m-t-b
-    .m-l
-    .m-r
-    .m-l-r
+    .m-t (top)
+    .m-b (bottom)
+    .m-t-b (top + bottom)
+    .m-l (left)
+    .m-r (right)
+    .m-r-l (right + left)
+    .m-a (all)
 
 For all classes except "0" and "0-auto" you can add the size at the end:
 
@@ -42,7 +43,7 @@ For all classes except "0" and "0-auto" you can add the size at the end:
     .m-t-b-xs
     .m-l-xs
     .m-r-xs
-    .m-l-r-xs
+    .m-r-l-xs
 
 **Available sizes are: xs, sm, lg, xl**
 
@@ -62,23 +63,25 @@ You can add the size of the screen after the "m" in the class name. This will ta
 
 The default padding classes are:
 
-    .p-none
+    .p-0 (none)
 
-    .p-t
-    .p-b
-    .p-t-b
-    .p-l
-    .p-r
-    .p-l-r
+    .p-t (top)
+    .p-b (bottom)
+    .p-t-b (top + bottom)
+    .p-l (left)
+    .p-r (right)
+    .p-r-l (right + left)
+    .p-a (all)
 
-For all classes except "none" you can add the size at the end:
+For all classes except "0" you can add the size at the end:
 
     .p-t-xs
     .p-b-xs
     .p-t-b-xs
     .p-l-xs
     .p-r-xs
-    .p-l-r-xs
+    .p-r-l-xs
+    .p-a-xs
 
 **Available sizes are: xs, sm, lg, xl**
 
@@ -86,7 +89,7 @@ For all classes except "none" you can add the size at the end:
 
 You can add the size of the screen after the "p" in the class name. This will take effect for all screens smaller than this.
 
-    .p-md-none
+    .p-md-0
     .p-md-t
     .p-md-t-b-xl
     ...

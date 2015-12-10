@@ -1,5 +1,5 @@
 /*! Margin and Padding Classes for CSS - v0.0.1
-* 2015-11-10
+* 2015-12-10
 * https://github.com/wuifdesign/css-margin-padding
 * Copyright (c) 2015 - Michael Wohlfahrter 
 */ 
@@ -64,6 +64,10 @@
   margin-left: 15px;
 }
 
+.m-a {
+  margin: 15px;
+}
+
 .m-t-xs {
   margin-top: 4px;
 }
@@ -88,6 +92,10 @@
 .m-r-l-xs {
   margin-right: 4px;
   margin-left: 4px;
+}
+
+.m-a-xs {
+  margin: 4px;
 }
 
 .m-t-sm {
@@ -116,6 +124,10 @@
   margin-left: 8px;
 }
 
+.m-a-sm {
+  margin: 8px;
+}
+
 .m-t-lg {
   margin-top: 30px;
 }
@@ -142,6 +154,10 @@
   margin-left: 30px;
 }
 
+.m-a-lg {
+  margin: 30px;
+}
+
 .m-t-xl {
   margin-top: 60px;
 }
@@ -166,6 +182,10 @@
 .m-r-l-xl {
   margin-right: 60px;
   margin-left: 60px;
+}
+
+.m-a-xl {
+  margin: 60px;
 }
 
 @media (max-width: 1199px) {
@@ -229,6 +249,10 @@
     margin-left: 15px;
   }
 
+  .m-md-a {
+    margin: 15px;
+  }
+
   .m-md-t-xs {
     margin-top: 4px;
   }
@@ -253,6 +277,10 @@
   .m-md-r-l-xs {
     margin-right: 4px;
     margin-left: 4px;
+  }
+
+  .m-md-a-xs {
+    margin: 4px;
   }
 
   .m-md-t-sm {
@@ -281,6 +309,10 @@
     margin-left: 8px;
   }
 
+  .m-md-a-sm {
+    margin: 8px;
+  }
+
   .m-md-t-lg {
     margin-top: 30px;
   }
@@ -307,6 +339,10 @@
     margin-left: 30px;
   }
 
+  .m-md-a-lg {
+    margin: 30px;
+  }
+
   .m-md-t-xl {
     margin-top: 60px;
   }
@@ -331,6 +367,10 @@
   .m-md-r-l-xl {
     margin-right: 60px;
     margin-left: 60px;
+  }
+
+  .m-md-a-xl {
+    margin: 60px;
   }
 }
 @media (max-width: 991px) {
@@ -394,6 +434,10 @@
     margin-left: 15px;
   }
 
+  .m-sm-a {
+    margin: 15px;
+  }
+
   .m-sm-t-xs {
     margin-top: 4px;
   }
@@ -418,6 +462,10 @@
   .m-sm-r-l-xs {
     margin-right: 4px;
     margin-left: 4px;
+  }
+
+  .m-sm-a-xs {
+    margin: 4px;
   }
 
   .m-sm-t-sm {
@@ -446,6 +494,10 @@
     margin-left: 8px;
   }
 
+  .m-sm-a-sm {
+    margin: 8px;
+  }
+
   .m-sm-t-lg {
     margin-top: 30px;
   }
@@ -472,6 +524,10 @@
     margin-left: 30px;
   }
 
+  .m-sm-a-lg {
+    margin: 30px;
+  }
+
   .m-sm-t-xl {
     margin-top: 60px;
   }
@@ -496,6 +552,10 @@
   .m-sm-r-l-xl {
     margin-right: 60px;
     margin-left: 60px;
+  }
+
+  .m-sm-a-xl {
+    margin: 60px;
   }
 }
 @media (max-width: 767px) {
@@ -559,6 +619,10 @@
     margin-left: 15px;
   }
 
+  .m-xs-a {
+    margin: 15px;
+  }
+
   .m-xs-t-xs {
     margin-top: 4px;
   }
@@ -583,6 +647,10 @@
   .m-xs-r-l-xs {
     margin-right: 4px;
     margin-left: 4px;
+  }
+
+  .m-xs-a-xs {
+    margin: 4px;
   }
 
   .m-xs-t-sm {
@@ -611,6 +679,10 @@
     margin-left: 8px;
   }
 
+  .m-xs-a-sm {
+    margin: 8px;
+  }
+
   .m-xs-t-lg {
     margin-top: 30px;
   }
@@ -637,6 +709,10 @@
     margin-left: 30px;
   }
 
+  .m-xs-a-lg {
+    margin: 30px;
+  }
+
   .m-xs-t-xl {
     margin-top: 60px;
   }
@@ -661,6 +737,10 @@
   .m-xs-r-l-xl {
     margin-right: 60px;
     margin-left: 60px;
+  }
+
+  .m-xs-a-xl {
+    margin: 60px;
   }
 }
 .p-0 {
@@ -719,6 +799,10 @@
   padding-left: 15px;
 }
 
+.p-a {
+  padding: 15px;
+}
+
 .p-t-xs {
   padding-top: 4px;
 }
@@ -743,6 +827,10 @@
 .p-r-l-xs {
   padding-right: 4px;
   padding-left: 4px;
+}
+
+.p-a-xs {
+  padding: 4px;
 }
 
 .p-t-sm {
@@ -771,6 +859,10 @@
   padding-left: 8px;
 }
 
+.p-a-sm {
+  padding: 8px;
+}
+
 .p-t-lg {
   padding-top: 30px;
 }
@@ -797,6 +889,10 @@
   padding-left: 30px;
 }
 
+.p-a-lg {
+  padding: 30px;
+}
+
 .p-t-xl {
   padding-top: 60px;
 }
@@ -821,6 +917,10 @@
 .p-r-l-xl {
   padding-right: 60px;
   padding-left: 60px;
+}
+
+.p-a-xl {
+  padding: 60px;
 }
 
 @media (max-width: 1199px) {
@@ -880,6 +980,10 @@
     padding-left: 15px;
   }
 
+  .p-md-a {
+    padding: 15px;
+  }
+
   .p-md-t-xs {
     padding-top: 4px;
   }
@@ -904,6 +1008,10 @@
   .p-md-r-l-xs {
     padding-right: 4px;
     padding-left: 4px;
+  }
+
+  .p-md-a-xs {
+    padding: 4px;
   }
 
   .p-md-t-sm {
@@ -932,6 +1040,10 @@
     padding-left: 8px;
   }
 
+  .p-md-a-sm {
+    padding: 8px;
+  }
+
   .p-md-t-lg {
     padding-top: 30px;
   }
@@ -958,6 +1070,10 @@
     padding-left: 30px;
   }
 
+  .p-md-a-lg {
+    padding: 30px;
+  }
+
   .p-md-t-xl {
     padding-top: 60px;
   }
@@ -982,6 +1098,10 @@
   .p-md-r-l-xl {
     padding-right: 60px;
     padding-left: 60px;
+  }
+
+  .p-md-a-xl {
+    padding: 60px;
   }
 }
 @media (max-width: 991px) {
@@ -1041,6 +1161,10 @@
     padding-left: 15px;
   }
 
+  .p-sm-a {
+    padding: 15px;
+  }
+
   .p-sm-t-xs {
     padding-top: 4px;
   }
@@ -1065,6 +1189,10 @@
   .p-sm-r-l-xs {
     padding-right: 4px;
     padding-left: 4px;
+  }
+
+  .p-sm-a-xs {
+    padding: 4px;
   }
 
   .p-sm-t-sm {
@@ -1093,6 +1221,10 @@
     padding-left: 8px;
   }
 
+  .p-sm-a-sm {
+    padding: 8px;
+  }
+
   .p-sm-t-lg {
     padding-top: 30px;
   }
@@ -1119,6 +1251,10 @@
     padding-left: 30px;
   }
 
+  .p-sm-a-lg {
+    padding: 30px;
+  }
+
   .p-sm-t-xl {
     padding-top: 60px;
   }
@@ -1143,6 +1279,10 @@
   .p-sm-r-l-xl {
     padding-right: 60px;
     padding-left: 60px;
+  }
+
+  .p-sm-a-xl {
+    padding: 60px;
   }
 }
 @media (max-width: 767px) {
@@ -1202,6 +1342,10 @@
     padding-left: 15px;
   }
 
+  .p-xs-a {
+    padding: 15px;
+  }
+
   .p-xs-t-xs {
     padding-top: 4px;
   }
@@ -1226,6 +1370,10 @@
   .p-xs-r-l-xs {
     padding-right: 4px;
     padding-left: 4px;
+  }
+
+  .p-xs-a-xs {
+    padding: 4px;
   }
 
   .p-xs-t-sm {
@@ -1254,6 +1402,10 @@
     padding-left: 8px;
   }
 
+  .p-xs-a-sm {
+    padding: 8px;
+  }
+
   .p-xs-t-lg {
     padding-top: 30px;
   }
@@ -1280,6 +1432,10 @@
     padding-left: 30px;
   }
 
+  .p-xs-a-lg {
+    padding: 30px;
+  }
+
   .p-xs-t-xl {
     padding-top: 60px;
   }
@@ -1304,5 +1460,9 @@
   .p-xs-r-l-xl {
     padding-right: 60px;
     padding-left: 60px;
+  }
+
+  .p-xs-a-xl {
+    padding: 60px;
   }
 }

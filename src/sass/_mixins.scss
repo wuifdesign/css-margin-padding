@@ -68,6 +68,10 @@
     margin-right: $value;
     margin-left: $value;
   }
+
+  .m#{$screen}-a#{$size} {
+    margin: $value;
+  }
 }
 
 @mixin paddings($size: '', $value: $default-padding, $screen: '') {
@@ -135,5 +139,9 @@
   .p#{$screen}-r-l#{$size} {
     padding-right: $value;
     padding-left: $value;
+  }
+
+  .p#{$screen}-a#{$size} {
+    padding: $value;
   }
 }

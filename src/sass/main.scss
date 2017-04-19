@@ -14,7 +14,7 @@ $margin-types: (
   xl round($default-margin * 4)
 ) !default;
 
-$default-padding: 15px !default;
+$default-padding: $default-margin !default;
 $padding-types: (
   xs round($default-padding / 4),
   sm round($default-padding / 2),
